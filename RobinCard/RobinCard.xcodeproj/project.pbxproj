@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82574F112537A2EE00EE3718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82574F102537A2EE00EE3718 /* AppDelegate.swift */; };
+		82574F132537A2EE00EE3718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82574F122537A2EE00EE3718 /* SceneDelegate.swift */; };
+		82574F152537A2EE00EE3718 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82574F142537A2EE00EE3718 /* ContentView.swift */; };
+		82574F172537A2F000EE3718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82574F162537A2F000EE3718 /* Assets.xcassets */; };
+		82574F1A2537A2F000EE3718 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82574F192537A2F000EE3718 /* Preview Assets.xcassets */; };
+		82574F1D2537A2F000EE3718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82574F1B2537A2F000EE3718 /* LaunchScreen.storyboard */; };
+		82574F282537A2F000EE3718 /* RobinCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82574F272537A2F000EE3718 /* RobinCardTests.swift */; };
+		82574F332537A2F000EE3718 /* RobinCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82574F322537A2F000EE3718 /* RobinCardUITests.swift */; };
+		82574F452537A75200EE3718 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82574F442537A75200EE3718 /* Pacifico-Regular.ttf */; };
+		82574F4A2537AF3700EE3718 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82574F492537AF3700EE3718 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82574F242537A2F000EE3718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82574F052537A2EE00EE3718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82574F0C2537A2EE00EE3718;
+			remoteInfo = RobinCard;
+		};
+		82574F2F2537A2F000EE3718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82574F052537A2EE00EE3718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82574F0C2537A2EE00EE3718;
+			remoteInfo = RobinCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82574F0D2537A2EE00EE3718 /* RobinCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobinCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82574F102537A2EE00EE3718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82574F122537A2EE00EE3718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82574F142537A2EE00EE3718 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82574F162537A2F000EE3718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82574F192537A2F000EE3718 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82574F1C2537A2F000EE3718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82574F1E2537A2F000EE3718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82574F232537A2F000EE3718 /* RobinCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobinCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82574F272537A2F000EE3718 /* RobinCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobinCardTests.swift; sourceTree = "<group>"; };
+		82574F292537A2F000EE3718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82574F2E2537A2F000EE3718 /* RobinCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobinCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82574F322537A2F000EE3718 /* RobinCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobinCardUITests.swift; sourceTree = "<group>"; };
+		82574F342537A2F000EE3718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82574F442537A75200EE3718 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		82574F492537AF3700EE3718 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82574F0A2537A2EE00EE3718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82574F202537A2F000EE3718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82574F2B2537A2F000EE3718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82574F042537A2EE00EE3718 = {
+			isa = PBXGroup;
+			children = (
+				82574F0F2537A2EE00EE3718 /* RobinCard */,
+				82574F262537A2F000EE3718 /* RobinCardTests */,
+				82574F312537A2F000EE3718 /* RobinCardUITests */,
+				82574F0E2537A2EE00EE3718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82574F0E2537A2EE00EE3718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82574F0D2537A2EE00EE3718 /* RobinCard.app */,
+				82574F232537A2F000EE3718 /* RobinCardTests.xctest */,
+				82574F2E2537A2F000EE3718 /* RobinCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82574F0F2537A2EE00EE3718 /* RobinCard */ = {
+			isa = PBXGroup;
+			children = (
+				82574F432537A70900EE3718 /* Fonts */,
+				82574F102537A2EE00EE3718 /* AppDelegate.swift */,
+				82574F122537A2EE00EE3718 /* SceneDelegate.swift */,
+				82574F142537A2EE00EE3718 /* ContentView.swift */,
+				82574F492537AF3700EE3718 /* InfoView.swift */,
+				82574F162537A2F000EE3718 /* Assets.xcassets */,
+				82574F1B2537A2F000EE3718 /* LaunchScreen.storyboard */,
+				82574F1E2537A2F000EE3718 /* Info.plist */,
+				82574F182537A2F000EE3718 /* Preview Content */,
+			);
+			path = RobinCard;
+			sourceTree = "<group>";
+		};
+		82574F182537A2F000EE3718 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82574F192537A2F000EE3718 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82574F262537A2F000EE3718 /* RobinCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				82574F272537A2F000EE3718 /* RobinCardTests.swift */,
+				82574F292537A2F000EE3718 /* Info.plist */,
+			);
+			path = RobinCardTests;
+			sourceTree = "<group>";
+		};
+		82574F312537A2F000EE3718 /* RobinCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82574F322537A2F000EE3718 /* RobinCardUITests.swift */,
+				82574F342537A2F000EE3718 /* Info.plist */,
+			);
+			path = RobinCardUITests;
+			sourceTree = "<group>";
+		};
+		82574F432537A70900EE3718 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				82574F442537A75200EE3718 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82574F0C2537A2EE00EE3718 /* RobinCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82574F372537A2F000EE3718 /* Build configuration list for PBXNativeTarget "RobinCard" */;
+			buildPhases = (
+				82574F092537A2EE00EE3718 /* Sources */,
+				82574F0A2537A2EE00EE3718 /* Frameworks */,
+				82574F0B2537A2EE00EE3718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobinCard;
+			productName = RobinCard;
+			productReference = 82574F0D2537A2EE00EE3718 /* RobinCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82574F222537A2F000EE3718 /* RobinCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82574F3A2537A2F000EE3718 /* Build configuration list for PBXNativeTarget "RobinCardTests" */;
+			buildPhases = (
+				82574F1F2537A2F000EE3718 /* Sources */,
+				82574F202537A2F000EE3718 /* Frameworks */,
+				82574F212537A2F000EE3718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82574F252537A2F000EE3718 /* PBXTargetDependency */,
+			);
+			name = RobinCardTests;
+			productName = RobinCardTests;
+			productReference = 82574F232537A2F000EE3718 /* RobinCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82574F2D2537A2F000EE3718 /* RobinCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82574F3D2537A2F000EE3718 /* Build configuration list for PBXNativeTarget "RobinCardUITests" */;
+			buildPhases = (
+				82574F2A2537A2F000EE3718 /* Sources */,
+				82574F2B2537A2F000EE3718 /* Frameworks */,
+				82574F2C2537A2F000EE3718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82574F302537A2F000EE3718 /* PBXTargetDependency */,
+			);
+			name = RobinCardUITests;
+			productName = RobinCardUITests;
+			productReference = 82574F2E2537A2F000EE3718 /* RobinCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82574F052537A2EE00EE3718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					82574F0C2537A2EE00EE3718 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					82574F222537A2F000EE3718 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 82574F0C2537A2EE00EE3718;
+					};
+					82574F2D2537A2F000EE3718 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 82574F0C2537A2EE00EE3718;
+					};
+				};
+			};
+			buildConfigurationList = 82574F082537A2EE00EE3718 /* Build configuration list for PBXProject "RobinCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82574F042537A2EE00EE3718;
+			productRefGroup = 82574F0E2537A2EE00EE3718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82574F0C2537A2EE00EE3718 /* RobinCard */,
+				82574F222537A2F000EE3718 /* RobinCardTests */,
+				82574F2D2537A2F000EE3718 /* RobinCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82574F0B2537A2EE00EE3718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82574F1D2537A2F000EE3718 /* LaunchScreen.storyboard in Resources */,
+				82574F452537A75200EE3718 /* Pacifico-Regular.ttf in Resources */,
+				82574F1A2537A2F000EE3718 /* Preview Assets.xcassets in Resources */,
+				82574F172537A2F000EE3718 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82574F212537A2F000EE3718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82574F2C2537A2F000EE3718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82574F092537A2EE00EE3718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82574F4A2537AF3700EE3718 /* InfoView.swift in Sources */,
+				82574F112537A2EE00EE3718 /* AppDelegate.swift in Sources */,
+				82574F132537A2EE00EE3718 /* SceneDelegate.swift in Sources */,
+				82574F152537A2EE00EE3718 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82574F1F2537A2F000EE3718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82574F282537A2F000EE3718 /* RobinCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82574F2A2537A2F000EE3718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82574F332537A2F000EE3718 /* RobinCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82574F252537A2F000EE3718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82574F0C2537A2EE00EE3718 /* RobinCard */;
+			targetProxy = 82574F242537A2F000EE3718 /* PBXContainerItemProxy */;
+		};
+		82574F302537A2F000EE3718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82574F0C2537A2EE00EE3718 /* RobinCard */;
+			targetProxy = 82574F2F2537A2F000EE3718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82574F1B2537A2F000EE3718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82574F1C2537A2F000EE3718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82574F352537A2F000EE3718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82574F362537A2F000EE3718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82574F382537A2F000EE3718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RobinCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RobinCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minadeorobin.RobinCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82574F392537A2F000EE3718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RobinCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RobinCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minadeorobin.RobinCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82574F3B2537A2F000EE3718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RobinCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minadeorobin.RobinCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobinCard.app/RobinCard";
+			};
+			name = Debug;
+		};
+		82574F3C2537A2F000EE3718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RobinCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minadeorobin.RobinCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RobinCard.app/RobinCard";
+			};
+			name = Release;
+		};
+		82574F3E2537A2F000EE3718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RobinCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minadeorobin.RobinCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RobinCard;
+			};
+			name = Debug;
+		};
+		82574F3F2537A2F000EE3718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RobinCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minadeorobin.RobinCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RobinCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82574F082537A2EE00EE3718 /* Build configuration list for PBXProject "RobinCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82574F352537A2F000EE3718 /* Debug */,
+				82574F362537A2F000EE3718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82574F372537A2F000EE3718 /* Build configuration list for PBXNativeTarget "RobinCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82574F382537A2F000EE3718 /* Debug */,
+				82574F392537A2F000EE3718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82574F3A2537A2F000EE3718 /* Build configuration list for PBXNativeTarget "RobinCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82574F3B2537A2F000EE3718 /* Debug */,
+				82574F3C2537A2F000EE3718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82574F3D2537A2F000EE3718 /* Build configuration list for PBXNativeTarget "RobinCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82574F3E2537A2F000EE3718 /* Debug */,
+				82574F3F2537A2F000EE3718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82574F052537A2EE00EE3718 /* Project object */;
+}
